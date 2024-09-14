@@ -1,4 +1,234 @@
 body {
     margin: 0%;
-    padding: 0%;
+    padding: 1%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+/* .logo img {
+    width: 200px;
+    height: 100px;
+} */
+
+.navbar {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+.navbar a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.navbar button {
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.contanier {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.content {
+    width: 50%;
+}
+
+.content h2 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.content p {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.content button {
+    font-family: "Space Grotesk", sans-serif;
+    border: 1px solid black;
+    background-color: #191A23;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.companies img {
+    flex-wrap: wrap;
+    padding: 40px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.strip {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 5%;
+}
+
+.strip h2 {
+    background-color: #B9FF66;
+    padding: 0px 20px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+.strip p {
+    padding: 10px;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact h2 {
+    background-color: #B9FF66;
+    padding: 0px 20px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+.contact p {
+    padding: 10px;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+form {
+    flex: ;
+    margin: 0% auto;
+    max-width: 500px;
+    padding: 10px;
+    background-color: greenyellow;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+
+label {
+    /* margin-bottom: 5px; */
+    display: block;
+    margin: 10px 0px 5px;
+}
+
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+
+
+@media (min-width:769px) {
+    .navbar i {
+        display: none;
+    }
+
+    .banner {
+        width: 40%;
+    }
+
+    .banner img {}
+}
+
+
+@media (max-width:768px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    .navbar i {
+        position: absolute;
+        top: 3%;
+        right: 0%;
+        left: 90%;
+    }
+
+    .contanier {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        width: 50%;
+    }
+
+    .content h2 {
+        text-align: left;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-family: "Space Grotesk", sans-serif;
+    }
+
+    .content p {
+        font-family: "Space Grotesk", sans-serif;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner img {
+        width: 80%;
+    }
 }
