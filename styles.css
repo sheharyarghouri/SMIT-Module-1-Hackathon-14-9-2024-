@@ -186,19 +186,21 @@ form button {
 
 
 @media (max-width:768px) {
+    header {
+        width: 100%;
+    }
     .navbar ul {
         display: none;
     }
 
     .logo {
-        width: 70%;
+        width: 50%;
     }
 
     .navbar i {
         position: absolute;
-        top: 3%;
-        right: 0%;
-        left: 90%;
+        top: 25%;
+        right: 10%;
     }
 
     .contanier {
